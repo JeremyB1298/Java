@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fe0cfc-22f3-4b38-8f62-2d1e78771293" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RectangleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,19 +47,19 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="955" />
+          <entry key="java" value="1008" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="955" />
+          <entry key="JAVA" value="1008" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="210">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="465">
               <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               <folding>
                 <element signature="e#336#337#0" expanded="true" />
@@ -152,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/main/Circle.java" />
         <option value="$PROJECT_DIR$/src/test/PointTest.java" />
         <option value="$PROJECT_DIR$/src/main/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/test/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/test/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/RectangleTest.java" />
       </list>
     </option>
   </component>
@@ -202,10 +202,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +244,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542296032608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542299173542" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -275,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CircleTest.getArea">
+  <component name="RunManager" selected="JUnit.RectangleTest.getArea">
     <configuration name="CircleTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
@@ -291,16 +291,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CircleTest" />
       <option name="METHOD_NAME" value="getArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PointTest.hascode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PointTest" />
-      <option name="METHOD_NAME" value="hascode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,20 +316,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RectangleTest.getArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <option name="METHOD_NAME" value="getArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.PointTest.hascode" />
       <item itemvalue="JUnit.PointTest.immuable" />
       <item itemvalue="JUnit.CircleTest.contains" />
       <item itemvalue="JUnit.CircleTest.getArea" />
       <item itemvalue="JUnit.RectangleTest.contains" />
+      <item itemvalue="JUnit.RectangleTest.getArea" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RectangleTest.getArea" />
         <item itemvalue="JUnit.CircleTest.getArea" />
         <item itemvalue="JUnit.RectangleTest.contains" />
         <item itemvalue="JUnit.CircleTest.contains" />
         <item itemvalue="JUnit.PointTest.immuable" />
-        <item itemvalue="JUnit.PointTest.hascode" />
       </list>
     </recent_temporary>
   </component>
@@ -357,18 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CircleTest_getArea - 2018.11.15 at 14h 09m 34s.xml">
-      <configuration name="CircleTest.getArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_getArea - 2018.11.15 at 16h 04m 37s.xml">
-      <configuration name="CircleTest.getArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_contains - 2018.11.15 at 16h 15m 24s.xml">
-      <configuration name="RectangleTest.contains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_contains - 2018.11.15 at 16h 15m 31s.xml">
-      <configuration name="RectangleTest.contains" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RectangleTest_contains - 2018.11.15 at 16h 15m 40s.xml">
       <configuration name="RectangleTest.contains" configurationId="JUnit" />
     </history-entry>
@@ -387,12 +375,24 @@
     <history-entry file="CircleTest_getArea - 2018.11.15 at 16h 33m 48s.xml">
       <configuration name="CircleTest.getArea" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RectangleTest_getArea - 2018.11.15 at 17h 25m 31s.xml">
+      <configuration name="RectangleTest.getArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_getArea - 2018.11.15 at 17h 25m 50s.xml">
+      <configuration name="RectangleTest.getArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_getArea - 2018.11.15 at 17h 25m 55s.xml">
+      <configuration name="RectangleTest.getArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_getArea - 2018.11.15 at 17h 26m 03s.xml">
+      <configuration name="RectangleTest.getArea" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="610" y="72" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,7 +409,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32929516" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -428,22 +428,12 @@
     <entry file="file://$PROJECT_DIR$/src/test/test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="210">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="465">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="e#336#337#0" expanded="true" />
@@ -479,8 +469,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -489,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
