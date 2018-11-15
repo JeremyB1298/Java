@@ -18,7 +18,7 @@ public class CircleTest {
         Point p1  = new Point(3,3);
         Circle c = new Circle(p1,1);
         Double area = c.area();
-        assertEquals(Math.PI,area,DELTA);
+        assertEquals(Math.PI,area,0.0001);
     }
 
 }

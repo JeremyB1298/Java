@@ -7,7 +7,7 @@ public class PointTest {
     public void isDistanceIsCorrect() {
         Point p1 = new Point(8,4);
         Point p2 = new Point(8,4);
-        assertEquals("fail distance",0.0,p1.distance(p2),0.001);
+        assertEquals("fail distance",1.0,p1.distance(p2),0.001);
 
     }
     @Test
