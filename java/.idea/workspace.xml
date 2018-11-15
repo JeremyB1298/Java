@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fe0cfc-22f3-4b38-8f62-2d1e78771293" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CircleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,12 +54,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="465" />
+          <entry key="java" value="597" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="465" />
+          <entry key="JAVA" value="597" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/PointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-95">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="300">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="375">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/src/test/PointTest.java" />
         <option value="$PROJECT_DIR$/src/main/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/Point.java" />
-        <option value="$PROJECT_DIR$/src/test/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/main/Circle.java" />
+        <option value="$PROJECT_DIR$/src/test/CircleTest.java" />
       </list>
     </option>
   </component>
@@ -213,7 +213,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542286991045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542287592305" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -244,12 +244,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CircleTest.contains">
+  <component name="RunManager" selected="JUnit.CircleTest.getArea">
     <configuration name="CircleTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CircleTest" />
       <option name="METHOD_NAME" value="contains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleTest.getArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CircleTest" />
+      <option name="METHOD_NAME" value="getArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,30 +295,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest.isMoving" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PointTest" />
-      <option name="METHOD_NAME" value="isMoving" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PointTest.isMoving" />
       <item itemvalue="JUnit.PointTest.areEquals" />
       <item itemvalue="JUnit.PointTest.hascode" />
       <item itemvalue="JUnit.PointTest.immuable" />
       <item itemvalue="JUnit.CircleTest.contains" />
+      <item itemvalue="JUnit.CircleTest.getArea" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircleTest.getArea" />
         <item itemvalue="JUnit.CircleTest.contains" />
         <item itemvalue="JUnit.PointTest.immuable" />
         <item itemvalue="JUnit.PointTest.hascode" />
         <item itemvalue="JUnit.PointTest.areEquals" />
-        <item itemvalue="JUnit.PointTest.isMoving" />
       </list>
     </recent_temporary>
   </component>
@@ -326,21 +326,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CircleTest_contains - 2018.11.15 at 13h 40m 49s.xml">
-      <configuration name="CircleTest.contains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_contains - 2018.11.15 at 13h 41m 17s.xml">
-      <configuration name="CircleTest.contains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_contains - 2018.11.15 at 13h 41m 33s.xml">
-      <configuration name="CircleTest.contains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_contains - 2018.11.15 at 13h 41m 57s.xml">
-      <configuration name="CircleTest.contains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_contains - 2018.11.15 at 13h 42m 21s.xml">
-      <configuration name="CircleTest.contains" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CircleTest_contains - 2018.11.15 at 13h 42m 53s.xml">
       <configuration name="CircleTest.contains" configurationId="JUnit" />
     </history-entry>
@@ -356,12 +341,27 @@
     <history-entry file="CircleTest_contains - 2018.11.15 at 13h 45m 17s.xml">
       <configuration name="CircleTest.contains" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CircleTest_contains - 2018.11.15 at 14h 02m 50s.xml">
+      <configuration name="CircleTest.contains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_contains - 2018.11.15 at 14h 02m 55s.xml">
+      <configuration name="CircleTest.contains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_contains - 2018.11.15 at 14h 03m 05s.xml">
+      <configuration name="CircleTest.contains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_contains - 2018.11.15 at 14h 03m 10s.xml">
+      <configuration name="CircleTest.contains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_getArea - 2018.11.15 at 14h 09m 34s.xml">
+      <configuration name="CircleTest.getArea" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="610" y="72" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,26 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -436,8 +416,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="375">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

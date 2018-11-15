@@ -12,4 +12,13 @@ public class CircleTest {
 
         assertTrue(c.contains(p2));
     }
+
+    @Test
+    public void getArea(){
+        Point p1  = new Point(3,3);
+        Circle c = new Circle(p1,1);
+        Double area = c.area();
+        assertEquals(Math.PI,area,DELTA);
+    }
+
 }

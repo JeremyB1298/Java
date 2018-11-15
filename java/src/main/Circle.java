@@ -22,6 +22,7 @@ public class Circle implements Shape {
 
     @Override
     public Double area() {
-        return null;
+
+        return Math.PI*Math.pow(radius,2);
     }
 }
