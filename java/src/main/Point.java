@@ -9,6 +9,14 @@ public final class Point {
         this.y = y;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     public Double distance(Point p){
         return Math.sqrt(Math.pow(p.x-this.x,2)+Math.pow(p.y-this.y,2));
     }
