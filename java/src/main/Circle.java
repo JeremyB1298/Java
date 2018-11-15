@@ -13,13 +13,10 @@ public class Circle implements Shape {
     @Override
     public boolean contains(Point p) {
 
-        double res =Math.sqrt( Math.pow(p.getX() - center.getX(),2) -  Math.pow(center.getY() - p.getY(),2) )  ;
-        System.out.println(res);
-        if(res > 1.0){
-            return false;
-        }
-        else{
+        if (Math.pow((p.getX() - center.getX()), 2) + Math.pow((p.getY() - center.getY()), 2) < Math.pow(radius, 2)) {
             return true;
+        } else {
+            return false;
         }
     }
 
